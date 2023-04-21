@@ -15,6 +15,7 @@
             align-items: center;
             height: 100vh;
             margin: 0;
+            background-color: "red"
         }
 
         /* Style the header */
@@ -43,7 +44,7 @@
         input[type="text"] {
             padding: 0.5rem;
             font-size: 1.2rem;
-            border: none;
+            border: 2px solid black;
             border-radius: 5px;
             width: 100%;
             margin-bottom: 2rem;
@@ -67,6 +68,11 @@
             display: flex;
             flex-direction: column;
         }
+        .inp{
+            border-color: #3e8e41;
+            border: 2px solid black;
+
+        }
     </style>
 
 
@@ -80,7 +86,7 @@
         <div class="box">
             <form action="/predict" method="POST">
                 <label for="que">Question: </label>
-                <input type="text" id="que" name="que"><br>
+                <input type="text" id="que" name="que" className="inp"><br>
                 <!-- <div class="pred" >
                     {% if prediction %}
                     <div class="prediction" style="color:black">

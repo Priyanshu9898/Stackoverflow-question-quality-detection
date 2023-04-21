@@ -70,8 +70,7 @@ def predict():
         return render_template('prediction.html', prediction=r)
 
 if __name__ == '__main__':
-
-    app.run(port=8080)
+    app.run(debug= True,host="0.0.0.0", port=8080)
 
 
 

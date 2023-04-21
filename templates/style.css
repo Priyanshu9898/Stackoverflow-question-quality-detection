@@ -27,7 +27,7 @@ input[type="text"] {
 }
 input[type="button"] {
     background-color: #4CAF50;
-    color: white;
+    color: black;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -36,4 +36,10 @@ input[type="button"] {
 }
 input[type="button"]:hover {
     background-color: #3e8e41;
+}
+
+.inp{
+    border-color: #3e8e41;
+    border: 2px solid black;
+
 }
